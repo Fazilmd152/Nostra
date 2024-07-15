@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collection</title>
+     <!-- style sheet -->
+     <link rel="stylesheet" href="style.css">
+     <!-- google fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+     <!-- Font awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+     <script defer src="collection.js" type="module"></script>
+   
+</head>
+<body>
+
+    <div class="offer">
+        <p>Sign Up and<b> Get 20% Off </b>for your first order</p>
+        <i id="offer-close" style="margin-left: 10%; cursor: pointer;" class="fa-solid fa-xmark"></i>
+    </div>
+     <!-- Navbar -->
+     <nav class="navbar">
+        <h1>Nostra</h1>
+        <div class="navbar-links">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="#new-arrivals">New Arrival</a>
+            <a class="nav-link" href="#mostWanted">Most Wanted</a>
+            <a class="nav-link">Collections</a>
+            <a class="nav-link">Contact us</a>
+        </div>
+        <div class="menu-bar">
+            <i id="side-navbar-activate" class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+
+    <!-- sidenav -->
+  <div class="sidenav">
+    <i id="offer-close" class="fa-solid fa-xmark" style="cursor: pointer;"></i>
+    <div class="sidenav-link">
+        <a href="index.html">Home</a>
+        <a  href="#new-arrivals">New Arrivals</a>
+        <a href="#mostWanted">Most Wanted</a>
+        <a href="collection.html">Collections</a>
+        <a>Contact Us</a>
+    </div>
+  </div>
+   
+    <div class="container">
+        <div class="collection-container">
+            <div class="filter-section">
+                <div class="filter">
+                    <h3>Occasion</h3>
+                    <input type="checkbox" id="summer" value="summer" name="tags"> <label for="summer">Summer</label><br>
+                    <input type="checkbox" id="party" value="party" name="tags"> <label for="party">Party</label><br>
+                    <input type="checkbox" id="beach" value="beach" name="tags"> <label for="beach">Beach</label>
+                </div>
+                <div class="filter">
+                    <h3>Colors</h3>
+                    <input type="checkbox" id="tag" value="blue" name="tags"> <label for="blue">Blue</label><br>
+                    <input type="checkbox" id="tag" value="white" name="tags"> <label for="white">White</label><br>
+                    <input type="checkbox" id="tag" value="green" name="tags"> <label for="green">Green</label><br>
+                    <input type="checkbox" id="tag" value="red" name="tags"> <label for="red">Red</label>
+                </div>
+                <div class="filter">
+                    <h3>Arrivals</h3>
+                    <input type="checkbox" id="tag" value="new" name="tags"> <label for="new">New</label><br>
+                    <input type="checkbox" id="tag" value="old" name="tags"> <label for="old">Old</label>
+                </div>
+                <hr class="vertical-line">
+            </div>
+    
+            <div class="products-section">
+                <div class="search">
+                    <input type="search" name="search" id="search" placeholder="Search">
+                    <i id="side-navbar-activate" class="fa-solid fa-magnifying-glass"></i>
+                </div>
+    
+                <!-- products -->
+                 <div class="products-container">
+                
+                 </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- news section -->
+    <div class="news">
+        <h2>Join Our News Letter</h2>
+        <p>Signup for our email newspaper to get exclusive discounts, updates, and more</p>
+        <div style="margin-top: 10px;">
+            <input type="search">
+        </div>
+        <div>
+            <button>Subscribe <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+    </div>
+</div>
+
+ <!-- footer -->
+ <div class="footer">
+    <h1>Nostra</h1>
+    <p>The Standard chunk of Lorem ipsum used since the 1500s is reprodused below<br> for those interest</p>
+    <div class="footer-icon">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-facebook"></i>
+
+    </div>
+    <h7>&copy; 2023 Nostra.com</h7>
+
+</body>
+</html>
